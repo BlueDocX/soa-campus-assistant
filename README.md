@@ -152,3 +152,7 @@ Needs a live `DATABASE_URL` for the Postgres and demo-visibility suites.
 - Not a free tool-loop agent. Classify → assign → allowlisted execute.
 - Not Supabase Auth / RLS. Authz is FastAPI JWT + RBAC.
 - Odia voice is labeled demo. Odia/Hindi **replies** are real.
+
+### License
+
+[MIT](LICENSE) © 2026 BlueDocX
