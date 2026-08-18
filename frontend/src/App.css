@@ -1,0 +1,74 @@
+/* SOA — Crextio-inspired design system */
+
+.hatch-bg {
+    background-image: repeating-linear-gradient(
+        -45deg,
+        rgba(21, 21, 21, 0.14) 0,
+        rgba(21, 21, 21, 0.14) 1.5px,
+        transparent 1.5px,
+        transparent 7px
+    );
+    background-color: #fbf9f4;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animate-fade-up {
+    animation: fadeUp 0.45s ease-out both;
+}
+
+@keyframes spinSlow {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.animate-spin-slow {
+    animation: spinSlow 2.4s linear infinite;
+}
+
+::selection {
+    background: #f5d34b;
+    color: #151515;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-fade-up,
+    .animate-spin-slow {
+        animation: none;
+    }
+}
+
+@media print {
+    header, nav, .print-hide {
+        display: none !important;
+    }
+    body, .App, main {
+        background: #fff !important;
+        color: #111 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .report-sheet {
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}

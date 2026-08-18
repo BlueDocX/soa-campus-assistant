@@ -1,0 +1,8 @@
+{
+  "framework": "create-react-app",
+  "buildCommand": "CI=false craco build",
+  "outputDirectory": "build",
+  "rewrites": [
+    { "source": "/((?!static/).*)", "destination": "/index.html" }
+  ]
+}
