@@ -1,6 +1,6 @@
 # 5-minute demo script
 
-Open `https://build-eta-inky.vercel.app` (or `http://localhost:3000`). Stay on **student** until step 2.
+Open `https://soa-campus.vercel.app` (or `http://localhost:3000`). Public URL — no Vercel login. Stay on **student** until step 2.
 
 ### 0:00 — one sentence
 “SOA is a governed campus agent. The model classifies and plans. A deterministic engine executes only allowlisted tools, and a human signs anything consequential.”

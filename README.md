@@ -6,10 +6,10 @@ Built for **SOAIDEATHON-S1**: *Human-in-the-Loop Agentic AI for Autonomous Insti
 
 ### Live demo
 
-- App: https://build-eta-inky.vercel.app
+- App: https://soa-campus.vercel.app (public — no Vercel login)
 - API: https://soa-api-209886947078.asia-south1.run.app/api/
 
-Use the in-app **role switcher**. Demo mode logs you in by role — no password needed on the hosted app.
+Anyone can open the app. You do not need to grant Vercel access. Use the in-app **role switcher** — demo mode logs you in by role.
 
 ### What it does
 

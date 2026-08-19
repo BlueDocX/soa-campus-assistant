@@ -1,6 +1,6 @@
 # SOAIDEATHON-S1 — problem statement → screen
 
-Judge walk: 5 minutes. Hosted app `https://build-eta-inky.vercel.app` (or local `http://localhost:3000`). Login as student first.
+Judge walk: 5 minutes. Hosted app `https://soa-campus.vercel.app` (or local `http://localhost:3000`). Public — no Vercel login. Login as student first.
 
 | PS sentence | What they see | Where |
 |---|---|---|
